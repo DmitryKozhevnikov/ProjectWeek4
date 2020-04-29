@@ -1131,4 +1131,6 @@ makeCodebook(Tidy_Dataset,replace=T,output="pdf",codebook=T,file="codebook_pdf.R
 ```
 
 This function also creates a .Rmd (R Markdown) file that can be tweaked to edit the codebook and add additional information.  
-Here is the **[Codebook for the tidy dataset](Codebook.md)**.
+#### View the codebook for the tidy dataset  
+- **[Codebook in Markdown format](Codebook.md)**
+- **[Codebook in PDF format](Codebook.pdf)**
