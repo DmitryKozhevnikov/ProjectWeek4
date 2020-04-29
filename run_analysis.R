@@ -72,6 +72,10 @@ averages_dataset<-tidy_dataset %>% group_by(SubjectID,ActivityLabel) %>% summari
   rename_if(is.numeric, function(x) paste0("Avg",x))
 
 #Write averages_dataset to disk.
+write_csv(averages_dataset,"averages_dataset.csv",append=F)
 write.table(averages_dataset,"averages_dataset.txt",row.name=F)
+
+# delete temp data and files
+rm(list=ls())
 
 # Thank you. - Krishnakanth Allika 2020-04-29 21:20 IST
