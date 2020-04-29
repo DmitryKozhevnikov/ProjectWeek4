@@ -986,7 +986,7 @@ Write file to disk.
 
 
 ```R
-write_csv(averages_dataset,"averages_dataset.csv",append=F)
+write.table(averages_dataset,"averages_dataset.txt",row.name=F)
 ```
 
 # Codebook <a name="codebook"></a>
